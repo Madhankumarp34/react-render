@@ -680,7 +680,6 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _mockdata = require("./utils/mockdata");
 var _header = require("./components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _bodyLayout = require("./components/BodyLayout");
@@ -691,18 +690,18 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 13,
+                lineNumber: 12,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyLayoutDefault.default), {}, void 0, false, {
                 fileName: "src/app.js",
-                lineNumber: 14,
+                lineNumber: 13,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/app.js",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 5
     }, undefined);
 };
@@ -710,7 +709,7 @@ _c = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "src/app.js",
-    lineNumber: 21,
+    lineNumber: 20,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -721,7 +720,7 @@ $RefreshReg$(_c, "AppLayout");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./utils/mockdata":"1r8tT","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Header":"3PJ6N","./components/BodyLayout":"bwSDi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Header":"3PJ6N","./components/BodyLayout":"bwSDi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -16120,2079 +16119,7 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"1r8tT":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "resList", ()=>resList);
-const resList = [
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '121603',
-            name: 'Kannur Food Point',
-            uuid: '51983905-e698-4e31-b0d7-e376eca56320',
-            city: '1',
-            area: 'Tavarekere',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'bmwn4n4bn6n1tcpc8x2h',
-            cuisines: [
-                'Kerala',
-                'Chinese'
-            ],
-            tags: [],
-            costForTwo: 30000,
-            costForTwoString: "\u20B9300 FOR TWO",
-            deliveryTime: 24,
-            minDeliveryTime: 24,
-            maxDeliveryTime: 24,
-            slaString: '24 MINS',
-            lastMileTravel: 3,
-            slugs: {
-                restaurant: 'kannur-food-point-btm',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '6/21,9TH CROSS ,1ST MAIN, VENKATESHWARA LAYOUT,SG PALYA, BENGALURU, - 560093',
-            locality: 'SG Palya',
-            parentId: 20974,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '50% off',
-                shortDescriptionList: [
-                    {
-                        meta: '50% off on all orders',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: '50% off on all orders',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '50% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: '',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: '50% off on all orders',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            ribbon: [
-                {
-                    type: 'PROMOTED'
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 3700,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 3700,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '3700',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: 'cid=6274849~p=1~eid=00000187-2c1c-96f0-0062-eea200b00103',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '3 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '121603',
-                deliveryTime: 24,
-                minDeliveryTime: 24,
-                maxDeliveryTime: 24,
-                lastMileTravel: 3,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: true,
-            avgRating: '3.9',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '229',
-            name: 'Meghana Foods',
-            uuid: '4fdd19e2-5d0f-4bde-9c7f-dc3e8d36021f',
-            city: '1',
-            area: 'Koramangala',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'xqwpuhgnsaf18te7zvtv',
-            cuisines: [
-                'Biryani',
-                'Andhra',
-                'South Indian',
-                'North Indian',
-                'Chinese',
-                'Seafood'
-            ],
-            tags: [],
-            costForTwo: 50000,
-            costForTwoString: "\u20B9500 FOR TWO",
-            deliveryTime: 16,
-            minDeliveryTime: 16,
-            maxDeliveryTime: 16,
-            slaString: '16 MINS',
-            lastMileTravel: 1.399999976158142,
-            slugs: {
-                restaurant: 'meghana-foods-5th-block-koramangala',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '124, Near Jyothi Nivas College, 1st Cross, KHB Colony, Koramangala 5th Block, Bangalore',
-            locality: '5th Block',
-            parentId: 635,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 2900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 2900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '2900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '1.3 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '229',
-                deliveryTime: 16,
-                minDeliveryTime: 16,
-                maxDeliveryTime: 16,
-                lastMileTravel: 1.399999976158142,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '4.4',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '428',
-            name: 'Biryani Pot',
-            uuid: '6db20a8b-dd85-4148-b750-107169f7f826',
-            city: '1',
-            area: 'Btm Layout',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'mdipoyzfzsa7n7igskht',
-            cuisines: [
-                'North Indian',
-                'Biryani'
-            ],
-            tags: [],
-            costForTwo: 50000,
-            costForTwoString: "\u20B9500 FOR TWO",
-            deliveryTime: 19,
-            minDeliveryTime: 19,
-            maxDeliveryTime: 19,
-            slaString: '19 MINS',
-            lastMileTravel: 1.899999976158142,
-            slugs: {
-                restaurant: 'biryani-pot-madiwala-junction-btm',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '14th  Cross, 4th link Road Maruthi Nagar Madiwala Bangalore 68',
-            locality: 'Maruti Nagar',
-            parentId: 21798,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '20% off',
-                shortDescriptionList: [
-                    {
-                        meta: '20% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "20% off up to \u20B950 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '20% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "20% off up to \u20B950 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 2900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 2900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '2900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '1.8 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '428',
-                deliveryTime: 19,
-                minDeliveryTime: 19,
-                maxDeliveryTime: 19,
-                lastMileTravel: 1.899999976158142,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '3.9',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '223',
-            name: 'Truffles',
-            uuid: '8250cc38-4752-4f42-928b-4da5f01e5cbe',
-            city: '1',
-            area: 'Koramangala',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'cd832b6167eb9f88aeb1ccdebf38d942',
-            cuisines: [
-                'American',
-                'Continental',
-                'Desserts',
-                'Italian'
-            ],
-            tags: [],
-            costForTwo: 45000,
-            costForTwoString: "\u20B9450 FOR TWO",
-            deliveryTime: 30,
-            minDeliveryTime: 30,
-            maxDeliveryTime: 30,
-            slaString: '30 MINS',
-            lastMileTravel: 1.600000023841858,
-            slugs: {
-                restaurant: 'truffles-ice-spice-5th-block-koramangala',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: "93/A, Appek Building, 'A' Wing,  4th 'B' Cross,  Koramangala Industrial Layout, 5th Block, Koramangala, Bangalore - 560 095",
-            locality: '5th Block',
-            parentId: 218065,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '40% off',
-                shortDescriptionList: [
-                    {
-                        meta: '40% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "40% off up to \u20B980 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '40% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "40% off up to \u20B980 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            ribbon: [
-                {
-                    type: 'PROMOTED'
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 2900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 2900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '2900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: 'cid=6275692~p=4~eid=00000187-2c1c-96f0-0062-eea300b00430',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '1.6 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '223',
-                deliveryTime: 30,
-                minDeliveryTime: 30,
-                maxDeliveryTime: 30,
-                lastMileTravel: 1.600000023841858,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: true,
-            avgRating: '4.4',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '425',
-            name: 'Hotel Empire',
-            uuid: 'c0c37758-2e83-4429-aad6-eb94debb48f5',
-            city: '1',
-            area: 'Koramangala',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'un4omn7rcunkmlw6vikr',
-            cuisines: [
-                'North Indian',
-                'Kebabs',
-                'Biryani'
-            ],
-            tags: [],
-            costForTwo: 45000,
-            costForTwoString: "\u20B9450 FOR TWO",
-            deliveryTime: 23,
-            minDeliveryTime: 23,
-            maxDeliveryTime: 23,
-            slaString: '23 MINS',
-            lastMileTravel: 1.2999999523162842,
-            slugs: {
-                restaurant: 'hotel-empire-5th-block-koramangala',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '103, Industrial Area, 5th Block, Near Jyothi Nivas College, Koramangala 5th Block, Bangalore',
-            locality: 'Koramangala',
-            parentId: 475,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '10% off',
-                shortDescriptionList: [
-                    {
-                        meta: '10% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "10% off up to \u20B940 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '10% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "10% off up to \u20B940 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 2900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 2900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '2900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '1.2 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '425',
-                deliveryTime: 23,
-                minDeliveryTime: 23,
-                maxDeliveryTime: 23,
-                lastMileTravel: 1.2999999523162842,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '4.1',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '201224',
-            name: 'Asha tiffins',
-            uuid: 'e32381cf-6468-4c10-9bad-47fa08e898a8',
-            city: '1',
-            area: 'HSR Layout',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'n15vckntsiboiod3gpco',
-            cuisines: [
-                'Indian',
-                'South Indian',
-                'Beverages'
-            ],
-            tags: [],
-            costForTwo: 20000,
-            costForTwoString: "\u20B9200 FOR TWO",
-            deliveryTime: 26,
-            minDeliveryTime: 26,
-            maxDeliveryTime: 26,
-            slaString: '26 MINS',
-            lastMileTravel: 4,
-            slugs: {
-                restaurant: 'asha-tiffins-hsr-hsr-2',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: 'Asha Tiffins, 5th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka, India',
-            locality: '7th Sector',
-            parentId: 236243,
-            unserviceable: false,
-            veg: true,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '30% off',
-                shortDescriptionList: [
-                    {
-                        meta: '30% off | Use TRYNEW-XL',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "30% off upto \u20B980 | Use TRYNEW-XL",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '30% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW-XL',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "30% off upto \u20B980 | Use TRYNEW-XL",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            ribbon: [
-                {
-                    type: 'PROMOTED'
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 3700,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 3700,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '3700',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: 'cid=6196512~p=7~eid=00000187-2c1c-96f0-0062-eea400b00725',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '4 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '201224',
-                deliveryTime: 26,
-                minDeliveryTime: 26,
-                maxDeliveryTime: 26,
-                lastMileTravel: 4,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: true,
-            avgRating: '4.4',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '59593',
-            name: 'Al Daaz',
-            uuid: 'c189b92c-d842-4595-9a1f-ff85bd67bc2a',
-            city: '1',
-            area: 'Hsr Layout',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'rxsvhvcdip9dbfdijzk9',
-            cuisines: [
-                'American',
-                'Arabian',
-                'Chinese',
-                'Desserts',
-                'Mughlai',
-                'North Indian'
-            ],
-            tags: [],
-            costForTwo: 40000,
-            costForTwoString: "\u20B9400 FOR TWO",
-            deliveryTime: 36,
-            minDeliveryTime: 36,
-            maxDeliveryTime: 36,
-            slaString: '36 MINS',
-            lastMileTravel: 4.5,
-            slugs: {
-                restaurant: 'al-daaz-hsr-hsr',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '#64 & 65, 27th Main Rd, 1st Sector HSR Layout - 560102',
-            locality: 'HSR',
-            parentId: 21640,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 3700,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 3700,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '3700',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '4.5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '59593',
-                deliveryTime: 36,
-                minDeliveryTime: 36,
-                maxDeliveryTime: 36,
-                lastMileTravel: 4.5,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '4.3',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '56589',
-            name: 'Roti-Wala',
-            uuid: '257a0889-b243-4252-b84a-6c9f1760d58f',
-            city: '1',
-            area: 'BTM Layout',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'ptetuqkrhmpd8tiqiztg',
-            cuisines: [
-                'North Indian',
-                'Home Food',
-                'Thalis',
-                'Chinese',
-                'Punjabi',
-                'South Indian',
-                'Ice Cream'
-            ],
-            tags: [],
-            costForTwo: 20000,
-            costForTwoString: "\u20B9200 FOR TWO",
-            deliveryTime: 37,
-            minDeliveryTime: 37,
-            maxDeliveryTime: 37,
-            slaString: '37 MINS',
-            lastMileTravel: 4,
-            slugs: {
-                restaurant: 'roti-wala-lavelle-road-central-bangalore',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '#239, 7TH Cross, Btm Stage 2. NS Palya, 560076',
-            locality: '2nd Stage',
-            parentId: 415860,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '40% off',
-                shortDescriptionList: [
-                    {
-                        meta: '40% off | Use GUILTFREE',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "40% off up to \u20B9100 | Use code GUILTFREE",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '40% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use GUILTFREE',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "40% off up to \u20B9100 | Use code GUILTFREE",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 3700,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 3700,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '3700',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '4 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '56589',
-                deliveryTime: 37,
-                minDeliveryTime: 37,
-                maxDeliveryTime: 37,
-                lastMileTravel: 4,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '4.2',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '560153',
-            name: 'Rice Bowl',
-            uuid: 'b5652b7d-5df8-4be5-8fe9-27648b668e79',
-            city: '1',
-            area: 'Koramangala',
-            totalRatingsString: '1000+ ratings',
-            cloudinaryImageId: 'z2ahvclpmdv6lekyth39',
-            cuisines: [
-                'North Indian',
-                'South Indian'
-            ],
-            tags: [],
-            costForTwo: 30000,
-            costForTwoString: "\u20B9300 FOR TWO",
-            deliveryTime: 22,
-            minDeliveryTime: 22,
-            maxDeliveryTime: 22,
-            slaString: '22 MINS',
-            lastMileTravel: 2.5,
-            slugs: {
-                restaurant: 'rice-bowl-koramangala-koramangala-2',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '42A, Old House List No 148/11, Katha No 296, BBMP PID No 68-327-98/1, Jakkasandra Village, Sarjapur Main Road, Bengaluru -, BTM Layout , B.B.M.P South, Karnataka - 560034',
-            locality: 'Jakkasandra',
-            parentId: 169302,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: 'FLAT125 off',
-                shortDescriptionList: [
-                    {
-                        meta: 'FLAT125 off | Use FLATDEAL',
-                        discountType: 'Flat',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: 'FLAT125 off | Use FLATDEAL',
-                        discountType: 'Flat',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: "\u20B9125 OFF",
-                shortDescriptionList: [
-                    {
-                        meta: 'Use FLATDEAL',
-                        discountType: 'Flat',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: 'FLAT125 off | Use FLATDEAL',
-                        discountType: 'Flat',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            ribbon: [
-                {
-                    type: 'PROMOTED'
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 2900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 2900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '2900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: 'cid=6081264~p=10~eid=00000187-2c1c-96f0-0062-eea500b00a3d',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '2.5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '560153',
-                deliveryTime: 22,
-                minDeliveryTime: 22,
-                maxDeliveryTime: 22,
-                lastMileTravel: 2.5,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: true,
-            avgRating: '4.1',
-            totalRatings: 1000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '337335',
-            name: 'Kannur food kitchen',
-            uuid: 'c70b61bc-0f68-4e24-996b-749fbf295c35',
-            city: '1',
-            area: 'BTM Layout',
-            totalRatingsString: '5000+ ratings',
-            cloudinaryImageId: 'a27weqanhnszqiuzsoik',
-            cuisines: [
-                'Kerala',
-                'Biryani',
-                'Beverages'
-            ],
-            tags: [],
-            costForTwo: 20000,
-            costForTwoString: "\u20B9200 FOR TWO",
-            deliveryTime: 24,
-            minDeliveryTime: 24,
-            maxDeliveryTime: 24,
-            slaString: '24 MINS',
-            lastMileTravel: 2.5,
-            slugs: {
-                restaurant: 'kannur-food-kitchen-btm-btm',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: 'kannur food point, Chocolate Factory Road, Tavarekere, Cashier Layout, 1st Stage, BTM Layout, thavrakharea, Karnataka, India',
-            locality: '1st  Stage',
-            parentId: 114756,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '50% off',
-                shortDescriptionList: [
-                    {
-                        meta: '50% off on all orders',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    },
-                    {
-                        meta: "Free Limejuice on orders above \u20B9499",
-                        discountType: 'Freebie',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: '50% off on all orders',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    },
-                    {
-                        meta: "Free Limejuice on orders above \u20B9499",
-                        discountType: 'Freebie',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '50% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: '',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: '50% off on all orders',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    },
-                    {
-                        meta: "Free Limejuice on orders above \u20B9499",
-                        discountType: 'Freebie',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 2900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 2900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '2900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '2.5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '337335',
-                deliveryTime: 24,
-                minDeliveryTime: 24,
-                maxDeliveryTime: 24,
-                lastMileTravel: 2.5,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '3.8',
-            totalRatings: 5000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '601',
-            name: 'Litti Twist',
-            uuid: 'e7dcc8d7-fea9-4312-8c4e-7a6516a026db',
-            city: '1',
-            area: 'Btm Layout',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'zyahkuhlgnxp3prkvttv',
-            cuisines: [
-                'North Indian'
-            ],
-            tags: [],
-            costForTwo: 25000,
-            costForTwoString: "\u20B9250 FOR TWO",
-            deliveryTime: 28,
-            minDeliveryTime: 28,
-            maxDeliveryTime: 28,
-            slaString: '28 MINS',
-            lastMileTravel: 4.5,
-            slugs: {
-                restaurant: 'litti-twist-2nd-stage-btm',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076',
-            locality: '2nd Stage',
-            parentId: 3455,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '50% off',
-                shortDescriptionList: [
-                    {
-                        meta: '50% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '50% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            ribbon: [
-                {
-                    type: 'PROMOTED'
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 3700,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 3700,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '3700',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: 'cid=6276197~p=13~eid=00000187-2c1c-96f0-0062-eea600b00d24',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '4.5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '601',
-                deliveryTime: 28,
-                minDeliveryTime: 28,
-                maxDeliveryTime: 28,
-                lastMileTravel: 4.5,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: true,
-            avgRating: '4.2',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '256957',
-            name: 'Shanmukha Restaurant',
-            uuid: 'c1972fbf-2e19-42d6-ac49-54f412f78d86',
-            city: '1',
-            area: 'Jayanagar',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'c5howge9hbdor7uqf949',
-            cuisines: [
-                'Biryani',
-                'Hyderabadi',
-                'Andhra',
-                'North Indian',
-                'South Indian',
-                'Chinese',
-                'Tandoor',
-                'Seafood',
-                'Beverages'
-            ],
-            tags: [],
-            costForTwo: 30000,
-            costForTwoString: "\u20B9300 FOR TWO",
-            deliveryTime: 36,
-            minDeliveryTime: 36,
-            maxDeliveryTime: 36,
-            slaString: '36 MINS',
-            lastMileTravel: 5,
-            slugs: {
-                restaurant: 'shanmukha-restaurant-jayanagar-jayanagar',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '1313, Near Bangalore Central Mall, 25th Main, 9th Block, Jayanagar, Bengaluru, Karnataka 560069, India',
-            locality: '9th Block',
-            parentId: 9954,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '50% off',
-                shortDescriptionList: [
-                    {
-                        meta: '50% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '50% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 4900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 4900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '4900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '256957',
-                deliveryTime: 36,
-                minDeliveryTime: 36,
-                maxDeliveryTime: 36,
-                lastMileTravel: 5,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '4.1',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '642459',
-            name: 'Malnad Donne Biryani MDB',
-            uuid: '4ae022a0-9296-40ac-8ea9-3e764200e6a5',
-            city: '1',
-            area: 'Jayanagar',
-            totalRatingsString: '50+ ratings',
-            cloudinaryImageId: 'tjw67zgzfehxgfo1vio2',
-            cuisines: [
-                'Biryani',
-                'South Indian',
-                'Kebabs'
-            ],
-            tags: [],
-            costForTwo: 25000,
-            costForTwoString: "\u20B9250 FOR TWO",
-            deliveryTime: 36,
-            minDeliveryTime: 36,
-            maxDeliveryTime: 36,
-            slaString: '36 MINS',
-            lastMileTravel: 5,
-            slugs: {
-                restaurant: 'malnad-donne-biryani-mdb-jayanagar-jayanagar',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '1384, 32nd E Cross , near Axis bank, opp sanjay gandhi university. 4th T Block , Jayanagar, Bengaluru, Karnataka 560041',
-            locality: 'T Block',
-            parentId: 130946,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '40% off',
-                shortDescriptionList: [
-                    {
-                        meta: '40% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "40% off up to \u20B980 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '40% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "40% off up to \u20B980 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 4900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 4900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '4900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 1,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '642459',
-                deliveryTime: 36,
-                minDeliveryTime: 36,
-                maxDeliveryTime: 36,
-                lastMileTravel: 5,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'IT_IS_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '3.9',
-            totalRatings: 50,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '27643',
-            name: 'Ultimate Parathas',
-            uuid: '925340c8-7945-4cdf-894b-01a90f5445a2',
-            city: '1',
-            area: 'Btm Layout',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'm0bjo1ds8l6o4civx6ek',
-            cuisines: [
-                'Bihari',
-                'North Indian',
-                'Desserts'
-            ],
-            tags: [],
-            costForTwo: 25000,
-            costForTwoString: "\u20B9250 FOR TWO",
-            deliveryTime: 29,
-            minDeliveryTime: 29,
-            maxDeliveryTime: 29,
-            slaString: '29 MINS',
-            lastMileTravel: 4.5,
-            slugs: {
-                restaurant: 'litti-twist-koramangala-koramangala',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: '#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076',
-            locality: '2nd Stage',
-            parentId: 21591,
-            unserviceable: false,
-            veg: false,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '50% off',
-                shortDescriptionList: [
-                    {
-                        meta: '50% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '50% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            ribbon: [
-                {
-                    type: 'PROMOTED'
-                }
-            ],
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 3700,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 3700,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '3700',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: 'cid=6276390~p=16~eid=00000187-2c1c-96f0-0062-eea700b01075',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '4.5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '27643',
-                deliveryTime: 29,
-                minDeliveryTime: 29,
-                maxDeliveryTime: 29,
-                lastMileTravel: 4.5,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: true,
-            avgRating: '4.2',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    },
-    {
-        type: 'restaurant',
-        data: {
-            type: 'F',
-            id: '42294',
-            name: 'Udupi Palace',
-            uuid: '7e5fb1de-707b-4851-a0f7-a70df335efe2',
-            city: '1',
-            area: 'HSR Layout',
-            totalRatingsString: '10000+ ratings',
-            cloudinaryImageId: 'dbfp4mqtidbjh9sectlk',
-            cuisines: [
-                'Beverages',
-                'Biryani',
-                'Chinese',
-                'Desserts',
-                'North Indian',
-                'South Indian'
-            ],
-            tags: [],
-            costForTwo: 15000,
-            costForTwoString: "\u20B9150 FOR TWO",
-            deliveryTime: 30,
-            minDeliveryTime: 30,
-            maxDeliveryTime: 30,
-            slaString: '30 MINS',
-            lastMileTravel: 5.599999904632568,
-            slugs: {
-                restaurant: 'udupi-palace-00-hsr',
-                city: 'bangalore'
-            },
-            cityState: '1',
-            address: 'No 1188 HNR tower 24th main second SECTOR HSR LAYOUT BANGALORE 560102',
-            locality: '2nd Sector',
-            parentId: 6971,
-            unserviceable: false,
-            veg: true,
-            select: false,
-            favorite: false,
-            tradeCampaignHeaders: [],
-            aggregatedDiscountInfo: {
-                header: '20% off',
-                shortDescriptionList: [
-                    {
-                        meta: '20% off | Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "20% off up to \u20B950 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            aggregatedDiscountInfoV2: {
-                header: '20% OFF',
-                shortDescriptionList: [
-                    {
-                        meta: 'Use TRYNEW',
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                descriptionList: [
-                    {
-                        meta: "20% off up to \u20B950 | Use code TRYNEW",
-                        discountType: 'Percentage',
-                        operationType: 'RESTAURANT'
-                    }
-                ],
-                subHeader: '',
-                headerType: 0,
-                superFreedel: ''
-            },
-            chain: [],
-            feeDetails: {
-                fees: [
-                    {
-                        name: 'distance',
-                        fee: 4900,
-                        message: ''
-                    },
-                    {
-                        name: 'time',
-                        fee: 0,
-                        message: ''
-                    },
-                    {
-                        name: 'special',
-                        fee: 0,
-                        message: ''
-                    }
-                ],
-                totalFees: 4900,
-                message: '',
-                title: 'Delivery Charge',
-                amount: '4900',
-                icon: ''
-            },
-            availability: {
-                opened: true,
-                nextOpenMessage: '',
-                nextCloseMessage: ''
-            },
-            longDistanceEnabled: 0,
-            rainMode: 'NONE',
-            thirdPartyAddress: false,
-            thirdPartyVendor: '',
-            adTrackingID: '',
-            badges: {
-                imageBased: [],
-                textBased: [],
-                textExtendedBadges: []
-            },
-            lastMileTravelString: '5.5 kms',
-            hasSurge: false,
-            sla: {
-                restaurantId: '42294',
-                deliveryTime: 30,
-                minDeliveryTime: 30,
-                maxDeliveryTime: 30,
-                lastMileTravel: 5.599999904632568,
-                lastMileDistance: 0,
-                serviceability: 'SERVICEABLE',
-                rainMode: 'NONE',
-                longDistance: 'NOT_LONG_DISTANCE',
-                preferentialService: false,
-                iconType: 'EMPTY'
-            },
-            promoted: false,
-            avgRating: '4.2',
-            totalRatings: 10000,
-            new: false
-        },
-        subtype: 'basic'
-    }
-];
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"jMk1U"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -20611,10 +18538,14 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
 var _restaurants = require("./Restaurants");
 var _restaurantsDefault = parcelHelpers.interopDefault(_restaurants);
 var _mockdata = require("../utils/mockdata");
+var _s = $RefreshSig$();
 const Bodylayout = ()=>{
+    _s();
+    const [listOfRestaurants, setListOfRestaurants] = (0, _react.useState)((0, _mockdata.restList));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "body-container",
         children: [
@@ -20626,43 +18557,51 @@ const Bodylayout = ()=>{
                         placeholder: "Search for restaurant"
                     }, void 0, false, {
                         fileName: "src/components/BodyLayout.js",
-                        lineNumber: 9,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "search-btn",
+                        onClick: ()=>{
+                            // * Filter logic
+                            const filteredList = listOfRestaurants.filter((res)=>res.data.avgRating > 4);
+                            setListOfRestaurants(filteredList);
+                            console.log(filteredList);
+                        },
                         children: "Search"
                     }, void 0, false, {
                         fileName: "src/components/BodyLayout.js",
-                        lineNumber: 10,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/BodyLayout.js",
-                lineNumber: 8,
+                lineNumber: 11,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "rest-container",
-                children: (0, _mockdata.resList).map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantsDefault.default), {
+                children: listOfRestaurants.map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantsDefault.default), {
                         resData: restaurant
                     }, restaurant.data.id, false, {
                         fileName: "src/components/BodyLayout.js",
-                        lineNumber: 16,
+                        lineNumber: 31,
                         columnNumber: 13
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/BodyLayout.js",
-                lineNumber: 13,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/BodyLayout.js",
-        lineNumber: 6,
+        lineNumber: 9,
         columnNumber: 5
     }, undefined);
 };
+_s(Bodylayout, "bv52jrByMAJAE06f3X0kNo9EY6I=");
 _c = Bodylayout;
 exports.default = Bodylayout;
 var _c;
@@ -20673,7 +18612,7 @@ $RefreshReg$(_c, "Bodylayout");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Restaurants":"f7hHU","../utils/mockdata":"1r8tT"}],"f7hHU":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Restaurants":"f7hHU","../utils/mockdata":"1r8tT","react":"jMk1U"}],"f7hHU":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$ccbf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$ccbf.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -20762,6 +18701,2078 @@ $RefreshReg$(_c, "Restaurants");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../utils/constant":"2QBK6"}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire2a1d", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../utils/constant":"2QBK6"}],"1r8tT":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "restList", ()=>restList);
+const restList = [
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '121603',
+            name: 'Kannur Food Point',
+            uuid: '51983905-e698-4e31-b0d7-e376eca56320',
+            city: '1',
+            area: 'Tavarekere',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'bmwn4n4bn6n1tcpc8x2h',
+            cuisines: [
+                'Kerala',
+                'Chinese'
+            ],
+            tags: [],
+            costForTwo: 30000,
+            costForTwoString: "\u20B9300 FOR TWO",
+            deliveryTime: 24,
+            minDeliveryTime: 24,
+            maxDeliveryTime: 24,
+            slaString: '24 MINS',
+            lastMileTravel: 3,
+            slugs: {
+                restaurant: 'kannur-food-point-btm',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '6/21,9TH CROSS ,1ST MAIN, VENKATESHWARA LAYOUT,SG PALYA, BENGALURU, - 560093',
+            locality: 'SG Palya',
+            parentId: 20974,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '50% off',
+                shortDescriptionList: [
+                    {
+                        meta: '50% off on all orders',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: '50% off on all orders',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '50% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: '',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: '50% off on all orders',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            ribbon: [
+                {
+                    type: 'PROMOTED'
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 3700,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 3700,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '3700',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: 'cid=6274849~p=1~eid=00000187-2c1c-96f0-0062-eea200b00103',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '3 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '121603',
+                deliveryTime: 24,
+                minDeliveryTime: 24,
+                maxDeliveryTime: 24,
+                lastMileTravel: 3,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: true,
+            avgRating: '3.9',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '229',
+            name: 'Meghana Foods',
+            uuid: '4fdd19e2-5d0f-4bde-9c7f-dc3e8d36021f',
+            city: '1',
+            area: 'Koramangala',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'xqwpuhgnsaf18te7zvtv',
+            cuisines: [
+                'Biryani',
+                'Andhra',
+                'South Indian',
+                'North Indian',
+                'Chinese',
+                'Seafood'
+            ],
+            tags: [],
+            costForTwo: 50000,
+            costForTwoString: "\u20B9500 FOR TWO",
+            deliveryTime: 16,
+            minDeliveryTime: 16,
+            maxDeliveryTime: 16,
+            slaString: '16 MINS',
+            lastMileTravel: 1.399999976158142,
+            slugs: {
+                restaurant: 'meghana-foods-5th-block-koramangala',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '124, Near Jyothi Nivas College, 1st Cross, KHB Colony, Koramangala 5th Block, Bangalore',
+            locality: '5th Block',
+            parentId: 635,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 2900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 2900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '2900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '1.3 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '229',
+                deliveryTime: 16,
+                minDeliveryTime: 16,
+                maxDeliveryTime: 16,
+                lastMileTravel: 1.399999976158142,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '4.4',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '428',
+            name: 'Biryani Pot',
+            uuid: '6db20a8b-dd85-4148-b750-107169f7f826',
+            city: '1',
+            area: 'Btm Layout',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'mdipoyzfzsa7n7igskht',
+            cuisines: [
+                'North Indian',
+                'Biryani'
+            ],
+            tags: [],
+            costForTwo: 50000,
+            costForTwoString: "\u20B9500 FOR TWO",
+            deliveryTime: 19,
+            minDeliveryTime: 19,
+            maxDeliveryTime: 19,
+            slaString: '19 MINS',
+            lastMileTravel: 1.899999976158142,
+            slugs: {
+                restaurant: 'biryani-pot-madiwala-junction-btm',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '14th  Cross, 4th link Road Maruthi Nagar Madiwala Bangalore 68',
+            locality: 'Maruti Nagar',
+            parentId: 21798,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '20% off',
+                shortDescriptionList: [
+                    {
+                        meta: '20% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "20% off up to \u20B950 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '20% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "20% off up to \u20B950 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 2900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 2900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '2900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '1.8 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '428',
+                deliveryTime: 19,
+                minDeliveryTime: 19,
+                maxDeliveryTime: 19,
+                lastMileTravel: 1.899999976158142,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '3.9',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '223',
+            name: 'Truffles',
+            uuid: '8250cc38-4752-4f42-928b-4da5f01e5cbe',
+            city: '1',
+            area: 'Koramangala',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'cd832b6167eb9f88aeb1ccdebf38d942',
+            cuisines: [
+                'American',
+                'Continental',
+                'Desserts',
+                'Italian'
+            ],
+            tags: [],
+            costForTwo: 45000,
+            costForTwoString: "\u20B9450 FOR TWO",
+            deliveryTime: 30,
+            minDeliveryTime: 30,
+            maxDeliveryTime: 30,
+            slaString: '30 MINS',
+            lastMileTravel: 1.600000023841858,
+            slugs: {
+                restaurant: 'truffles-ice-spice-5th-block-koramangala',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: "93/A, Appek Building, 'A' Wing,  4th 'B' Cross,  Koramangala Industrial Layout, 5th Block, Koramangala, Bangalore - 560 095",
+            locality: '5th Block',
+            parentId: 218065,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '40% off',
+                shortDescriptionList: [
+                    {
+                        meta: '40% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "40% off up to \u20B980 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '40% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "40% off up to \u20B980 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            ribbon: [
+                {
+                    type: 'PROMOTED'
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 2900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 2900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '2900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: 'cid=6275692~p=4~eid=00000187-2c1c-96f0-0062-eea300b00430',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '1.6 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '223',
+                deliveryTime: 30,
+                minDeliveryTime: 30,
+                maxDeliveryTime: 30,
+                lastMileTravel: 1.600000023841858,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: true,
+            avgRating: '4.4',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '425',
+            name: 'Hotel Empire',
+            uuid: 'c0c37758-2e83-4429-aad6-eb94debb48f5',
+            city: '1',
+            area: 'Koramangala',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'un4omn7rcunkmlw6vikr',
+            cuisines: [
+                'North Indian',
+                'Kebabs',
+                'Biryani'
+            ],
+            tags: [],
+            costForTwo: 45000,
+            costForTwoString: "\u20B9450 FOR TWO",
+            deliveryTime: 23,
+            minDeliveryTime: 23,
+            maxDeliveryTime: 23,
+            slaString: '23 MINS',
+            lastMileTravel: 1.2999999523162842,
+            slugs: {
+                restaurant: 'hotel-empire-5th-block-koramangala',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '103, Industrial Area, 5th Block, Near Jyothi Nivas College, Koramangala 5th Block, Bangalore',
+            locality: 'Koramangala',
+            parentId: 475,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '10% off',
+                shortDescriptionList: [
+                    {
+                        meta: '10% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "10% off up to \u20B940 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '10% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "10% off up to \u20B940 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 2900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 2900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '2900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '1.2 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '425',
+                deliveryTime: 23,
+                minDeliveryTime: 23,
+                maxDeliveryTime: 23,
+                lastMileTravel: 1.2999999523162842,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '4.1',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '201224',
+            name: 'Asha tiffins',
+            uuid: 'e32381cf-6468-4c10-9bad-47fa08e898a8',
+            city: '1',
+            area: 'HSR Layout',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'n15vckntsiboiod3gpco',
+            cuisines: [
+                'Indian',
+                'South Indian',
+                'Beverages'
+            ],
+            tags: [],
+            costForTwo: 20000,
+            costForTwoString: "\u20B9200 FOR TWO",
+            deliveryTime: 26,
+            minDeliveryTime: 26,
+            maxDeliveryTime: 26,
+            slaString: '26 MINS',
+            lastMileTravel: 4,
+            slugs: {
+                restaurant: 'asha-tiffins-hsr-hsr-2',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: 'Asha Tiffins, 5th Main Road, Sector 7, HSR Layout, Bengaluru, Karnataka, India',
+            locality: '7th Sector',
+            parentId: 236243,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '30% off',
+                shortDescriptionList: [
+                    {
+                        meta: '30% off | Use TRYNEW-XL',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "30% off upto \u20B980 | Use TRYNEW-XL",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '30% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW-XL',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "30% off upto \u20B980 | Use TRYNEW-XL",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            ribbon: [
+                {
+                    type: 'PROMOTED'
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 3700,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 3700,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '3700',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: 'cid=6196512~p=7~eid=00000187-2c1c-96f0-0062-eea400b00725',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '4 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '201224',
+                deliveryTime: 26,
+                minDeliveryTime: 26,
+                maxDeliveryTime: 26,
+                lastMileTravel: 4,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: true,
+            avgRating: '4.4',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '59593',
+            name: 'Al Daaz',
+            uuid: 'c189b92c-d842-4595-9a1f-ff85bd67bc2a',
+            city: '1',
+            area: 'Hsr Layout',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'rxsvhvcdip9dbfdijzk9',
+            cuisines: [
+                'American',
+                'Arabian',
+                'Chinese',
+                'Desserts',
+                'Mughlai',
+                'North Indian'
+            ],
+            tags: [],
+            costForTwo: 40000,
+            costForTwoString: "\u20B9400 FOR TWO",
+            deliveryTime: 36,
+            minDeliveryTime: 36,
+            maxDeliveryTime: 36,
+            slaString: '36 MINS',
+            lastMileTravel: 4.5,
+            slugs: {
+                restaurant: 'al-daaz-hsr-hsr',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '#64 & 65, 27th Main Rd, 1st Sector HSR Layout - 560102',
+            locality: 'HSR',
+            parentId: 21640,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 3700,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 3700,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '3700',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '4.5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '59593',
+                deliveryTime: 36,
+                minDeliveryTime: 36,
+                maxDeliveryTime: 36,
+                lastMileTravel: 4.5,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '4.3',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '56589',
+            name: 'Roti-Wala',
+            uuid: '257a0889-b243-4252-b84a-6c9f1760d58f',
+            city: '1',
+            area: 'BTM Layout',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'ptetuqkrhmpd8tiqiztg',
+            cuisines: [
+                'North Indian',
+                'Home Food',
+                'Thalis',
+                'Chinese',
+                'Punjabi',
+                'South Indian',
+                'Ice Cream'
+            ],
+            tags: [],
+            costForTwo: 20000,
+            costForTwoString: "\u20B9200 FOR TWO",
+            deliveryTime: 37,
+            minDeliveryTime: 37,
+            maxDeliveryTime: 37,
+            slaString: '37 MINS',
+            lastMileTravel: 4,
+            slugs: {
+                restaurant: 'roti-wala-lavelle-road-central-bangalore',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '#239, 7TH Cross, Btm Stage 2. NS Palya, 560076',
+            locality: '2nd Stage',
+            parentId: 415860,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '40% off',
+                shortDescriptionList: [
+                    {
+                        meta: '40% off | Use GUILTFREE',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "40% off up to \u20B9100 | Use code GUILTFREE",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '40% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use GUILTFREE',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "40% off up to \u20B9100 | Use code GUILTFREE",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 3700,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 3700,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '3700',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '4 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '56589',
+                deliveryTime: 37,
+                minDeliveryTime: 37,
+                maxDeliveryTime: 37,
+                lastMileTravel: 4,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '4.2',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '560153',
+            name: 'Rice Bowl',
+            uuid: 'b5652b7d-5df8-4be5-8fe9-27648b668e79',
+            city: '1',
+            area: 'Koramangala',
+            totalRatingsString: '1000+ ratings',
+            cloudinaryImageId: 'z2ahvclpmdv6lekyth39',
+            cuisines: [
+                'North Indian',
+                'South Indian'
+            ],
+            tags: [],
+            costForTwo: 30000,
+            costForTwoString: "\u20B9300 FOR TWO",
+            deliveryTime: 22,
+            minDeliveryTime: 22,
+            maxDeliveryTime: 22,
+            slaString: '22 MINS',
+            lastMileTravel: 2.5,
+            slugs: {
+                restaurant: 'rice-bowl-koramangala-koramangala-2',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '42A, Old House List No 148/11, Katha No 296, BBMP PID No 68-327-98/1, Jakkasandra Village, Sarjapur Main Road, Bengaluru -, BTM Layout , B.B.M.P South, Karnataka - 560034',
+            locality: 'Jakkasandra',
+            parentId: 169302,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: 'FLAT125 off',
+                shortDescriptionList: [
+                    {
+                        meta: 'FLAT125 off | Use FLATDEAL',
+                        discountType: 'Flat',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: 'FLAT125 off | Use FLATDEAL',
+                        discountType: 'Flat',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: "\u20B9125 OFF",
+                shortDescriptionList: [
+                    {
+                        meta: 'Use FLATDEAL',
+                        discountType: 'Flat',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: 'FLAT125 off | Use FLATDEAL',
+                        discountType: 'Flat',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            ribbon: [
+                {
+                    type: 'PROMOTED'
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 2900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 2900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '2900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: 'cid=6081264~p=10~eid=00000187-2c1c-96f0-0062-eea500b00a3d',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '2.5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '560153',
+                deliveryTime: 22,
+                minDeliveryTime: 22,
+                maxDeliveryTime: 22,
+                lastMileTravel: 2.5,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: true,
+            avgRating: '4.1',
+            totalRatings: 1000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '337335',
+            name: 'Kannur food kitchen',
+            uuid: 'c70b61bc-0f68-4e24-996b-749fbf295c35',
+            city: '1',
+            area: 'BTM Layout',
+            totalRatingsString: '5000+ ratings',
+            cloudinaryImageId: 'a27weqanhnszqiuzsoik',
+            cuisines: [
+                'Kerala',
+                'Biryani',
+                'Beverages'
+            ],
+            tags: [],
+            costForTwo: 20000,
+            costForTwoString: "\u20B9200 FOR TWO",
+            deliveryTime: 24,
+            minDeliveryTime: 24,
+            maxDeliveryTime: 24,
+            slaString: '24 MINS',
+            lastMileTravel: 2.5,
+            slugs: {
+                restaurant: 'kannur-food-kitchen-btm-btm',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: 'kannur food point, Chocolate Factory Road, Tavarekere, Cashier Layout, 1st Stage, BTM Layout, thavrakharea, Karnataka, India',
+            locality: '1st  Stage',
+            parentId: 114756,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '50% off',
+                shortDescriptionList: [
+                    {
+                        meta: '50% off on all orders',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    },
+                    {
+                        meta: "Free Limejuice on orders above \u20B9499",
+                        discountType: 'Freebie',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: '50% off on all orders',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    },
+                    {
+                        meta: "Free Limejuice on orders above \u20B9499",
+                        discountType: 'Freebie',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '50% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: '',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: '50% off on all orders',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    },
+                    {
+                        meta: "Free Limejuice on orders above \u20B9499",
+                        discountType: 'Freebie',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 2900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 2900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '2900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '2.5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '337335',
+                deliveryTime: 24,
+                minDeliveryTime: 24,
+                maxDeliveryTime: 24,
+                lastMileTravel: 2.5,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '3.8',
+            totalRatings: 5000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '601',
+            name: 'Litti Twist',
+            uuid: 'e7dcc8d7-fea9-4312-8c4e-7a6516a026db',
+            city: '1',
+            area: 'Btm Layout',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'zyahkuhlgnxp3prkvttv',
+            cuisines: [
+                'North Indian'
+            ],
+            tags: [],
+            costForTwo: 25000,
+            costForTwoString: "\u20B9250 FOR TWO",
+            deliveryTime: 28,
+            minDeliveryTime: 28,
+            maxDeliveryTime: 28,
+            slaString: '28 MINS',
+            lastMileTravel: 4.5,
+            slugs: {
+                restaurant: 'litti-twist-2nd-stage-btm',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076',
+            locality: '2nd Stage',
+            parentId: 3455,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '50% off',
+                shortDescriptionList: [
+                    {
+                        meta: '50% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '50% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            ribbon: [
+                {
+                    type: 'PROMOTED'
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 3700,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 3700,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '3700',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: 'cid=6276197~p=13~eid=00000187-2c1c-96f0-0062-eea600b00d24',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '4.5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '601',
+                deliveryTime: 28,
+                minDeliveryTime: 28,
+                maxDeliveryTime: 28,
+                lastMileTravel: 4.5,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: true,
+            avgRating: '4.2',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '256957',
+            name: 'Shanmukha Restaurant',
+            uuid: 'c1972fbf-2e19-42d6-ac49-54f412f78d86',
+            city: '1',
+            area: 'Jayanagar',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'c5howge9hbdor7uqf949',
+            cuisines: [
+                'Biryani',
+                'Hyderabadi',
+                'Andhra',
+                'North Indian',
+                'South Indian',
+                'Chinese',
+                'Tandoor',
+                'Seafood',
+                'Beverages'
+            ],
+            tags: [],
+            costForTwo: 30000,
+            costForTwoString: "\u20B9300 FOR TWO",
+            deliveryTime: 36,
+            minDeliveryTime: 36,
+            maxDeliveryTime: 36,
+            slaString: '36 MINS',
+            lastMileTravel: 5,
+            slugs: {
+                restaurant: 'shanmukha-restaurant-jayanagar-jayanagar',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '1313, Near Bangalore Central Mall, 25th Main, 9th Block, Jayanagar, Bengaluru, Karnataka 560069, India',
+            locality: '9th Block',
+            parentId: 9954,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '50% off',
+                shortDescriptionList: [
+                    {
+                        meta: '50% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '50% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 4900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 4900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '4900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '256957',
+                deliveryTime: 36,
+                minDeliveryTime: 36,
+                maxDeliveryTime: 36,
+                lastMileTravel: 5,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '4.1',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '642459',
+            name: 'Malnad Donne Biryani MDB',
+            uuid: '4ae022a0-9296-40ac-8ea9-3e764200e6a5',
+            city: '1',
+            area: 'Jayanagar',
+            totalRatingsString: '50+ ratings',
+            cloudinaryImageId: 'tjw67zgzfehxgfo1vio2',
+            cuisines: [
+                'Biryani',
+                'South Indian',
+                'Kebabs'
+            ],
+            tags: [],
+            costForTwo: 25000,
+            costForTwoString: "\u20B9250 FOR TWO",
+            deliveryTime: 36,
+            minDeliveryTime: 36,
+            maxDeliveryTime: 36,
+            slaString: '36 MINS',
+            lastMileTravel: 5,
+            slugs: {
+                restaurant: 'malnad-donne-biryani-mdb-jayanagar-jayanagar',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '1384, 32nd E Cross , near Axis bank, opp sanjay gandhi university. 4th T Block , Jayanagar, Bengaluru, Karnataka 560041',
+            locality: 'T Block',
+            parentId: 130946,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '40% off',
+                shortDescriptionList: [
+                    {
+                        meta: '40% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "40% off up to \u20B980 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '40% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "40% off up to \u20B980 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 4900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 4900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '4900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 1,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '642459',
+                deliveryTime: 36,
+                minDeliveryTime: 36,
+                maxDeliveryTime: 36,
+                lastMileTravel: 5,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'IT_IS_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '3.9',
+            totalRatings: 50,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '27643',
+            name: 'Ultimate Parathas',
+            uuid: '925340c8-7945-4cdf-894b-01a90f5445a2',
+            city: '1',
+            area: 'Btm Layout',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'm0bjo1ds8l6o4civx6ek',
+            cuisines: [
+                'Bihari',
+                'North Indian',
+                'Desserts'
+            ],
+            tags: [],
+            costForTwo: 25000,
+            costForTwoString: "\u20B9250 FOR TWO",
+            deliveryTime: 29,
+            minDeliveryTime: 29,
+            maxDeliveryTime: 29,
+            slaString: '29 MINS',
+            lastMileTravel: 4.5,
+            slugs: {
+                restaurant: 'litti-twist-koramangala-koramangala',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: '#5, 6th cross, 1st Main, Bannerghatta Main Rd, NS Palya, Stage 2, Bengaluru, Karnataka 560076',
+            locality: '2nd Stage',
+            parentId: 21591,
+            unserviceable: false,
+            veg: false,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '50% off',
+                shortDescriptionList: [
+                    {
+                        meta: '50% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '50% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "50% off up to \u20B9100 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            ribbon: [
+                {
+                    type: 'PROMOTED'
+                }
+            ],
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 3700,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 3700,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '3700',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: 'cid=6276390~p=16~eid=00000187-2c1c-96f0-0062-eea700b01075',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '4.5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '27643',
+                deliveryTime: 29,
+                minDeliveryTime: 29,
+                maxDeliveryTime: 29,
+                lastMileTravel: 4.5,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: true,
+            avgRating: '4.2',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    },
+    {
+        type: 'restaurant',
+        data: {
+            type: 'F',
+            id: '42294',
+            name: 'Udupi Palace',
+            uuid: '7e5fb1de-707b-4851-a0f7-a70df335efe2',
+            city: '1',
+            area: 'HSR Layout',
+            totalRatingsString: '10000+ ratings',
+            cloudinaryImageId: 'dbfp4mqtidbjh9sectlk',
+            cuisines: [
+                'Beverages',
+                'Biryani',
+                'Chinese',
+                'Desserts',
+                'North Indian',
+                'South Indian'
+            ],
+            tags: [],
+            costForTwo: 15000,
+            costForTwoString: "\u20B9150 FOR TWO",
+            deliveryTime: 30,
+            minDeliveryTime: 30,
+            maxDeliveryTime: 30,
+            slaString: '30 MINS',
+            lastMileTravel: 5.599999904632568,
+            slugs: {
+                restaurant: 'udupi-palace-00-hsr',
+                city: 'bangalore'
+            },
+            cityState: '1',
+            address: 'No 1188 HNR tower 24th main second SECTOR HSR LAYOUT BANGALORE 560102',
+            locality: '2nd Sector',
+            parentId: 6971,
+            unserviceable: false,
+            veg: true,
+            select: false,
+            favorite: false,
+            tradeCampaignHeaders: [],
+            aggregatedDiscountInfo: {
+                header: '20% off',
+                shortDescriptionList: [
+                    {
+                        meta: '20% off | Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "20% off up to \u20B950 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            aggregatedDiscountInfoV2: {
+                header: '20% OFF',
+                shortDescriptionList: [
+                    {
+                        meta: 'Use TRYNEW',
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                descriptionList: [
+                    {
+                        meta: "20% off up to \u20B950 | Use code TRYNEW",
+                        discountType: 'Percentage',
+                        operationType: 'RESTAURANT'
+                    }
+                ],
+                subHeader: '',
+                headerType: 0,
+                superFreedel: ''
+            },
+            chain: [],
+            feeDetails: {
+                fees: [
+                    {
+                        name: 'distance',
+                        fee: 4900,
+                        message: ''
+                    },
+                    {
+                        name: 'time',
+                        fee: 0,
+                        message: ''
+                    },
+                    {
+                        name: 'special',
+                        fee: 0,
+                        message: ''
+                    }
+                ],
+                totalFees: 4900,
+                message: '',
+                title: 'Delivery Charge',
+                amount: '4900',
+                icon: ''
+            },
+            availability: {
+                opened: true,
+                nextOpenMessage: '',
+                nextCloseMessage: ''
+            },
+            longDistanceEnabled: 0,
+            rainMode: 'NONE',
+            thirdPartyAddress: false,
+            thirdPartyVendor: '',
+            adTrackingID: '',
+            badges: {
+                imageBased: [],
+                textBased: [],
+                textExtendedBadges: []
+            },
+            lastMileTravelString: '5.5 kms',
+            hasSurge: false,
+            sla: {
+                restaurantId: '42294',
+                deliveryTime: 30,
+                minDeliveryTime: 30,
+                maxDeliveryTime: 30,
+                lastMileTravel: 5.599999904632568,
+                lastMileDistance: 0,
+                serviceability: 'SERVICEABLE',
+                rainMode: 'NONE',
+                longDistance: 'NOT_LONG_DISTANCE',
+                preferentialService: false,
+                iconType: 'EMPTY'
+            },
+            promoted: false,
+            avgRating: '4.2',
+            totalRatings: 10000,
+            new: false
+        },
+        subtype: 'basic'
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire2a1d", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=react-render.0f77c784.js.map

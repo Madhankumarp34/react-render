@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { resList } from "./utils/mockdata";
 import Header from "./components/Header";
 import Bodylayout from "./components/BodyLayout";
 
