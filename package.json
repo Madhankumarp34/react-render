@@ -1,0 +1,23 @@
+{
+  "name": "react-render",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhankumarp34/react-render.git"
+  },
+  "author": "MadhankumarP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhankumarp34/react-render/issues"
+  },
+  "homepage": "https://github.com/Madhankumarp34/react-render#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
