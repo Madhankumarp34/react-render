@@ -52,4 +52,14 @@
 .search {
   padding: 10px;
 }
+
+.login-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
 /*# sourceMappingURL=react-render.61d3354a.css.map */

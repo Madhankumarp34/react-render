@@ -1,38 +1,46 @@
+import { useEffect, useState } from "react";
+import Restaurants from "./Restaurants";
+import { restList } from "../utils/mockdata";
+import Shimmer from "../components/Shimmer"
 
-import { useState } from "react"
-import Restaurants from "./Restaurants"
-import { restList } from "../utils/mockdata"
 const Bodylayout = () => {
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
 
-  const [listOfRestaurants, setListOfRestaurants] = useState(restList);
-  return(
+  useEffect(() => {
+    setListOfRestaurants(restList)
+    // fetchData()
+  }, []);
+
+  // const async fetchData = () =>{
+  //   const data = await fetch("restList");
+  //   const json = await data.json;
+  //   setListOfRestaurants(json)
+  // }
+
+  return listOfRestaurants.length === 0 ? <Shimmer /> : (
     <div className="body-container">
-
       <div className="search">
         <input type="text" placeholder="Search for restaurant" />
-        <button className="search-btn"
+        <button
+          className="search-btn"
           onClick={() => {
-            // * Filter logic
             const filteredList = listOfRestaurants.filter(
               (res) => res.data.avgRating > 4
             );
-
             setListOfRestaurants(filteredList);
-            console.log(filteredList);
           }}
         >
           Search
-          </button>
+        </button>
       </div>
 
       <div className="rest-container">
-          
-          {listOfRestaurants.map((restaurant) => (
-            <Restaurants key={restaurant.data.id} resData = {restaurant}/>
-          ))}
-        
+        {listOfRestaurants.map((restaurant) => (
+          <Restaurants key={restaurant.data.id} resData={restaurant} />
+        ))}
       </div>
     </div>
-  )
-}
- export default Bodylayout
+  );
+};
+
+export default Bodylayout;
